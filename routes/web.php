@@ -22,9 +22,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/login', function () {
+Route::get('/dashboard', function () {
     return redirect()->route('grupos');
-})->middleware(['auth'])->name('login');
+})->middleware(['auth'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
     Route::get('/grupos', [GrupoController::class, 'consultar'])->name('grupos');

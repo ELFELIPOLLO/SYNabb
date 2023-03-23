@@ -1,0 +1,134 @@
+.sidenav {
+  height: 100%;
+  width: 230px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #EACEB4;
+  overflow-x: hidden;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 25;
+}
+
+.sidenav h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #FF5A5A;
+  text-transform: uppercase;
+}
+
+.sidenav .nav-link {
+  font-weight: bold;
+  color: #fff;
+}
+
+.sidenav .nav-link:hover {
+  color: #FF5A5A;
+}
+
+.sidenav .active {
+  color: #FF5A5A;
+  background-color: rgba(255, 90, 90, 0.2);
+  border-radius: 0 10px 10px 0;
+}
+
+.sidenav .user-info {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+
+.sidenav .user-info img {
+  display: block;
+  margin: 0 auto;
+  border: 3px solid #FF5A5A;
+}
+
+.sidenav .user-info p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #6C757D;
+  text-transform: uppercase;
+}
+
+  .canvas {
+    margin-left: 240px;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+
+.canvas .title {
+  padding: 28px 8px 6px 16px;
+  font-size: 40px;
+  color: #FF5A5A;
+  display: block;
+  font-weight: bold;
+}
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-weight:bold;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  th {
+    background-color: rgb(255, 90, 90);
+    color: #fff;
+    border: 3.5px solid rgb(129, 58, 58);
+    padding: 8px;
+    text-align: center;
+  }
+  
+  td {
+    background-color: rgb(255, 172, 172);
+    border: 2px solid rgb(187, 90, 90);
+    padding: 8px;
+    
+    text-align: center;
+  }
+  .nav-item a {
+    background-color: #4b4646;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+  }
+  .pagination .page-item.active .page-link {
+    background-color: #FF5A5A;
+    border-color: #FF5A5A;
+}
+
+/* Cambiar el color del botón cuando se pasa el cursor por encima */
+.pagination .page-item:not(.disabled):hover .page-link {
+    background-color: #FFC30F;
+    border-color: #FFC30F;
+}
+
+/* Cambiar el color del borde de los botones */
+.pagination .page-link {
+    color: #FF5A5A;
+    border-color: #FF5A5A;
+}
+
+/* Cambiar el color del texto de los botones activos */
+.pagination .page-item.active .page-link {
+    color: #fff;
+}
+
+/* Cambiar el color del texto de los botones cuando se pasa el cursor por encima */
+.pagination .page-item:not(.disabled):hover .page-link {
+    color: #000;
+}
+
+.synab{
+  font-size: 40;
+  color: #FF5A5A;
+  
+}

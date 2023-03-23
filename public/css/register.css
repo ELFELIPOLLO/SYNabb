@@ -1,0 +1,153 @@
+.textarea {
+  margin-top: 3px;
+  font-size: 16px;
+  font-family: 'Microsoft Yahei';
+  width: 96%;
+  height: 30%;
+  background-color: #FCDDB0;
+}
+
+.seleccionador {
+  margin-top: 3px;
+  font-size: 16;
+  font-family: 'Microsoft Yahei';
+  background-color: #FCDDB0;
+  width: 96%;
+  border: 1px solid black;
+}
+
+.botones {
+  position: absolute;
+  font-size: 16;
+  font-family: 'Microsoft Yahei';
+  height: 10%;
+  width: 100%;
+  left: 0;
+  bottom: -5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.regresar {
+  background-color: #F7D097;
+  border: 3px solid black;
+  height: 100%;
+  width: 50%;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.regresar:hover {
+  background-color: #F9E2B8;
+  border-color: #D4AC0D;
+}
+
+.reportar {
+  background-color: #F7D097;
+  border: 3px solid black;
+  height: 100%;
+  width: 50%;
+  margin-left: 8%;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.reportar:hover {
+  background-color: #F9E2B8;
+  border-color: #D4AC0D;
+}
+
+.principal {
+  position: absolute;
+  background-color: #F7D097;
+  width: 90%;
+  max-width: 500px;
+  height: 75%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 1);
+  border: 3px solid black;
+  font-family: 'Microsoft Yahei';
+  padding: 2%;
+  font-size: 16px;
+}
+
+.icono {
+  position: absolute;
+  background-color: #F7D097;
+  width: 10%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  top: 15%;
+  left: 45%;
+  border-color: black;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 1);
+  border: 3px solid black;
+  text-align: center;
+  vertical-align: center;
+  }
+  
+  .textbox {
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Microsoft Yahei';
+    width: 95%;
+    background-color: #FCDDB0;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .boton {
+    position: absolute;
+    font-size: 100%;
+    font-family: 'Microsoft Yahei';
+    height: 10%;
+    width: 50%;
+    left: 26%;
+    bottom: -5%;
+    background-color: #F7D097;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .saludo {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .img1,
+  .img2,
+  .img3,
+  .img4 {
+    position: absolute;
+    height: auto;
+    width: 20%;
+    opacity: 30%;
+  }
+  
+  .img1 {
+    top: 0%;
+    left: 0%;
+  }
+  
+  .img2 {
+    top: 0%;
+    right: 0%;
+  }
+  
+  .img3 {
+    bottom: 0%;
+    left: 0%;
+  }
+  
+  .img4 {
+    bottom: 0%;
+    right: 0%;
+  }
+  
